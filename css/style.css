@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 76px; /* Compensa el navbar fijo */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2rem 0;
+}
+
+/* Countdown */
+.countdown-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.countdown-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #6c757d;
+}
+
+/* Cards de eventos */
+.evento-card {
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.evento-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.evento-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Comentarios */
+.comentario-card {
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #0d6efd;
+}
+
+.comentario-header {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .countdown-item {
+        margin-bottom: 1rem;
+    }
+    
+    .countdown-value {
+        font-size: 1.5rem;
+    }
+}
